@@ -877,8 +877,7 @@ body {
 
 /* Layout */
 .ba-container {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 40px 20px 20px;
   max-width: 1008px;
 }
 
@@ -930,15 +929,44 @@ select {
   cursor: pointer;
 }
 
-.ba-information {
-  padding: 50px 41px 63px;
-  display: block;
+.ba-title {
+  color: #b7bacd;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #2b3040;
+  width: 600px;
+  height: 115px;
+  padding-top: 10px;
 }
 
-.ba-information h2 {
+.ba-title:hover .ba-title:after {
+  content: "";
+  display: block;
+  background-color: #fff;
+  height: 2px;
+}
+
+.ba-title li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 70px;
+  text-align: center;
+}
+
+.ba-title li h4 {
+  margin-top: 10px;
+}
+
+.ba-active {
   color: #fbfbfb;
   font-size: 16px;
   font-weight: 400;
+  display: block;
+}
+
+.ba-information {
+  padding: 50px 41px 63px;
+  display: block;
 }
 
 .ba-content h3 {
@@ -976,7 +1004,7 @@ select {
 }
 
 .ba-ratings {
-  display: inline-block;
+  display: none;
   color: #b7bacd;
   font-size: 14px;
   font-weight: 400;
@@ -984,7 +1012,7 @@ select {
 }
 
 .ba-buy {
-  display: inline-block;
+  display: none;
   color: #b7bacd;
   font-size: 14px;
   font-weight: 400;

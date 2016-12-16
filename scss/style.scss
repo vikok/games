@@ -11,8 +11,7 @@ body{
 
 /* Layout */
 .ba-container{
-	padding-left: 20px;
-	padding-right: 20px;
+	padding: 40px 20px 20px;
 	max-width: 1008px;
 }
 
@@ -79,34 +78,48 @@ textarea {
 	background-color:  #212534;
 	box-shadow: 0px 23px 57px 0px rgba(0, 0, 0, 0.4);
 	max-width: 600px;
-	// display: none;
 	cursor: pointer;
+}
 
+.ba-title{
+	color:  #b7bacd;
+	font-size: 16px;
+	font-weight: 400;
+	background-color:  #2b3040;
+	width: 600px;
+	height: 115px;
+	padding-top: 10px;
+	&:hover &:after{
+	content: "";
+	display: block;
+	background-color: #fff;
+	height: 2px;
+	}
+	li{
+	display: inline-block;
+	list-style: none;
+	margin-right: 70px;
+	text-align: center;
+	h4{
+	margin-top: 10px;
+	}
+	}
+
+}
+
+.ba-active{
+	color:  #fbfbfb;
+	font-size: 16px;
+	font-weight: 400;
+	display: block;
 }
 
 .ba-information{
 	padding: 50px 41px 63px;
 	display: block;
-	&__title{
-
-	}
-	h2{
-	color:  #fbfbfb;
-	font-size: 16px;
-	font-weight: 400;
-	}
-	// &:after{
-	// content: "";
-	// display: block;
-	// background-color:  #ffffff;
-	// height: 2px;
-	// }
 }
+
 .ba-content{
-
-	&__cover{
-
-	}
 	h3{
 	color:  #ffffff;
 	font-size: 32px;
@@ -139,14 +152,14 @@ textarea {
 }
 
 .ba-ratings{
-	display: inline-block;
+	display: none;
 	color:  #b7bacd;
 	font-size: 14px;
 	font-weight: 400;
 	padding: 50px 41px 63px;
 }
 .ba-buy{
-	display: inline-block;
+	display: none;
 	color:  #b7bacd;
 	font-size: 14px;
 	font-weight: 400;
