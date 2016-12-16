@@ -1,0 +1,2 @@
+[Thu Dec 15 2016 23:12:42 GMT+0200 (Финляндия (зима))] layer "In Far Cry 4, players find themselves in Kyrat, a breathtaking,": Expected end of input but "," found.
+[Thu Dec 15 2016 23:14:52 GMT+0200 (Финляндия (зима))] layer "cover.jpg": Duplicate path: cover.jpg
